@@ -1,21 +1,21 @@
 {
   "name": "calculadora",
+  "label": "Calculadora dNBR",
   "type": "widget",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "exbVersion": "1.10.0",
   "author": "Marcus",
-  "description": "Widget de calculo dNBR via GP Service",
+  "description": "Calculadora Área Queimada dNBR",
   "dependency": [
     "jimu-arcgis"
   ],
-  "copyright": "",
-  "license": "",
-  "properties": {},
-  "translatedLocales": [
-    "en"
-  ],
+  "useDataSources": true,
+  "properties": {
+    "hasConfig": true,
+    "supportResultSet": true
+  },
   "defaultSize": {
     "width": 300,
-    "height": 200
+    "height": 500
   }
 }
